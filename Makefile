@@ -1,5 +1,5 @@
-HDRS = local_arena_allocator.h
-SRCS = main.cc #arena.cc
+HDRS =
+SRCS = main.cc
 EMU_OBJS = $(subst .cc,.emu.o,$(SRCS))
 
 #EMU_PATH = /local/devel/packages/emu-18.11-cplus
